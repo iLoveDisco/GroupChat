@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double RosefireVersionNumber;
-FOUNDATION_EXPORT const unsigned char RosefireVersionString[];
+FOUNDATION_EXPORT double SideMenuVersionNumber;
+FOUNDATION_EXPORT const unsigned char SideMenuVersionString[];
 

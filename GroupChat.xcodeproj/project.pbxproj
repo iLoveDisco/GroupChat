@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		8D4C320925C7D24300E8E3A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C320825C7D24300E8E3A0 /* AppDelegate.swift */; };
 		8D4C320B25C7D24300E8E3A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C320A25C7D24300E8E3A0 /* SceneDelegate.swift */; };
-		8D4C320D25C7D24300E8E3A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C320C25C7D24300E8E3A0 /* ViewController.swift */; };
 		8D4C321025C7D24300E8E3A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4C320E25C7D24300E8E3A0 /* Main.storyboard */; };
 		8D4C321225C7D24500E8E3A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4C321125C7D24500E8E3A0 /* Assets.xcassets */; };
 		8D4C321525C7D24500E8E3A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4C321325C7D24500E8E3A0 /* LaunchScreen.storyboard */; };
-		8D4C323425C7D37200E8E3A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D4C323325C7D37200E8E3A0 /* GoogleService-Info.plist */; };
+		8D55DE7225CA59920008F52D /* FirstPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D55DE7125CA59920008F52D /* FirstPageVC.swift */; };
+		8D55DE9425CA5C070008F52D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D55DE9325CA5C070008F52D /* GoogleService-Info.plist */; };
+		8D55DEAD25CA60130008F52D /* LogInPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D55DEAC25CA60130008F52D /* LogInPageVC.swift */; };
+		8D55DEB025CA60D30008F52D /* SignUpPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D55DEAF25CA60D30008F52D /* SignUpPageVC.swift */; };
+		8D55DEB325CA63850008F52D /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D55DEB225CA63850008F52D /* Database.swift */; };
+		8D55DEB725CA6BFD0008F52D /* GroupsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D55DEB625CA6BFD0008F52D /* GroupsListVC.swift */; };
+		8D60373125CB10B300ECD6E7 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D60373025CB10B300ECD6E7 /* Group.swift */; };
+		8D60373625CB2FAC00ECD6E7 /* GroupListSideNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D60373525CB2FAC00ECD6E7 /* GroupListSideNavVC.swift */; };
 		B9BA6235886D3B73DC677EFF /* Pods_GroupChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0252449CA61B7EEC6052FFDC /* Pods_GroupChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +29,18 @@
 		8D4C320525C7D24300E8E3A0 /* GroupChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4C320825C7D24300E8E3A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D4C320A25C7D24300E8E3A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D4C320C25C7D24300E8E3A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D4C320F25C7D24300E8E3A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D4C321125C7D24500E8E3A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4C321425C7D24500E8E3A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4C321625C7D24500E8E3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D4C323325C7D37200E8E3A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D55DE7125CA59920008F52D /* FirstPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageVC.swift; sourceTree = "<group>"; };
+		8D55DE9325CA5C070008F52D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D55DEAC25CA60130008F52D /* LogInPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPageVC.swift; sourceTree = "<group>"; };
+		8D55DEAF25CA60D30008F52D /* SignUpPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPageVC.swift; sourceTree = "<group>"; };
+		8D55DEB225CA63850008F52D /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		8D55DEB625CA6BFD0008F52D /* GroupsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsListVC.swift; sourceTree = "<group>"; };
+		8D60373025CB10B300ECD6E7 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		8D60373525CB2FAC00ECD6E7 /* GroupListSideNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListSideNavVC.swift; sourceTree = "<group>"; };
 		A22D25744ED82345BD0A96FE /* Pods-GroupChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupChat.release.xcconfig"; path = "Target Support Files/Pods-GroupChat/Pods-GroupChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,15 +94,17 @@
 		8D4C320725C7D24300E8E3A0 /* GroupChat */ = {
 			isa = PBXGroup;
 			children = (
+				8D55DE9325CA5C070008F52D /* GoogleService-Info.plist */,
+				8D60373325CB23BC00ECD6E7 /* SideNavs */,
 				8D55DE6E25CA3A210008F52D /* View Controllers */,
 				8D4C320825C7D24300E8E3A0 /* AppDelegate.swift */,
 				8D4C320A25C7D24300E8E3A0 /* SceneDelegate.swift */,
-				8D4C320C25C7D24300E8E3A0 /* ViewController.swift */,
 				8D4C320E25C7D24300E8E3A0 /* Main.storyboard */,
 				8D4C321125C7D24500E8E3A0 /* Assets.xcassets */,
 				8D4C321325C7D24500E8E3A0 /* LaunchScreen.storyboard */,
 				8D4C321625C7D24500E8E3A0 /* Info.plist */,
-				8D4C323325C7D37200E8E3A0 /* GoogleService-Info.plist */,
+				8D55DEB225CA63850008F52D /* Database.swift */,
+				8D60373025CB10B300ECD6E7 /* Group.swift */,
 			);
 			path = GroupChat;
 			sourceTree = "<group>";
@@ -98,8 +112,20 @@
 		8D55DE6E25CA3A210008F52D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8D55DE7125CA59920008F52D /* FirstPageVC.swift */,
+				8D55DEAC25CA60130008F52D /* LogInPageVC.swift */,
+				8D55DEAF25CA60D30008F52D /* SignUpPageVC.swift */,
+				8D55DEB625CA6BFD0008F52D /* GroupsListVC.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8D60373325CB23BC00ECD6E7 /* SideNavs */ = {
+			isa = PBXGroup;
+			children = (
+				8D60373525CB2FAC00ECD6E7 /* GroupListSideNavVC.swift */,
+			);
+			path = SideNavs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D4C321525C7D24500E8E3A0 /* LaunchScreen.storyboard in Resources */,
-				8D4C323425C7D37200E8E3A0 /* GoogleService-Info.plist in Resources */,
+				8D55DE9425CA5C070008F52D /* GoogleService-Info.plist in Resources */,
 				8D4C321225C7D24500E8E3A0 /* Assets.xcassets in Resources */,
 				8D4C321025C7D24300E8E3A0 /* Main.storyboard in Resources */,
 			);
@@ -217,9 +243,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4C320D25C7D24300E8E3A0 /* ViewController.swift in Sources */,
+				8D55DEAD25CA60130008F52D /* LogInPageVC.swift in Sources */,
 				8D4C320925C7D24300E8E3A0 /* AppDelegate.swift in Sources */,
+				8D55DEB725CA6BFD0008F52D /* GroupsListVC.swift in Sources */,
+				8D60373125CB10B300ECD6E7 /* Group.swift in Sources */,
+				8D55DE7225CA59920008F52D /* FirstPageVC.swift in Sources */,
 				8D4C320B25C7D24300E8E3A0 /* SceneDelegate.swift in Sources */,
+				8D55DEB325CA63850008F52D /* Database.swift in Sources */,
+				8D55DEB025CA60D30008F52D /* SignUpPageVC.swift in Sources */,
+				8D60373625CB2FAC00ECD6E7 /* GroupListSideNavVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

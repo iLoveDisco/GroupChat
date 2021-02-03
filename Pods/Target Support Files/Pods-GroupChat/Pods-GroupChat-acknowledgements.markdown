@@ -2369,9 +2369,9 @@ Fuller's blog</a>
    limitations under the License.
 
 
-## Rosefire
+## SideMenu
 
-Copyright (c) 2016 Tyler Rockwood <rockwotj@gmail.com>
+Copyright (c) 2015 Jonathan Kent <contact@jonkent.me>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
